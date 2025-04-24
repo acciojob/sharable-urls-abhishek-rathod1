@@ -11,7 +11,7 @@ let baseUrl = `https://localhost:8080/`
 let params = [];
 
 if(name) params.push(`name=${name}`)
-if(year) params.push(`name=${year}`)
+if(year) params.push(`year=${year}`)
 // 
 link.textContent = params.length>0 ? `${baseUrl}?${params.join("&")}` : baseUrl;
 	
